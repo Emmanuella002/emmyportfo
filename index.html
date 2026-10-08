@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color" content="#07111f">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="Emmanuel | Lead Management & Revenue Operations">
+<meta property="og:description" content="CRM automation, lead management, KPI dashboards and conversion-focused landing pages for growing businesses.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Emmanuel",
+  "jobTitle":"Lead Management & Revenue Operations Specialist",
+  "description":"Lead management, CRM automation, KPI dashboards and conversion-focused landing pages for growing businesses.",
+  "sameAs":["https://www.linkedin.com/in/dennyinfotech"],
+  "knowsAbout":["Lead Management","CRM Automation","Sales Automation","KPI Dashboards","Landing Pages","Revenue Operations"]
+}</script>
+
+<meta name="description" content="Lead management, CRM automation, KPI dashboards and conversion-focused landing pages for growing businesses.">
+<title>Emmanuel | Lead Management & Revenue Operations</title>
+<style>
+:root{
+  --bg:#07111f; --panel:#0d1b2e; --panel2:#10243d; --text:#eef5ff;
+  --muted:#9fb0c7; --line:rgba(255,255,255,.10); --accent:#64a8ff;
+  --accent2:#8b7cff; --white:#fff; --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(92%,var(--max));margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,17,31,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:-.04em;font-size:1.2rem}
+.logo span{color:var(--accent)}
+.navlinks{display:flex;gap:26px;color:var(--muted);font-size:.94rem}
+.navlinks a:hover{color:var(--white)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:10px;font-weight:750;border:1px solid var(--line);transition:.2s}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;color:#06101d}
+.btn:hover{transform:translateY(-2px)}
+.hero{padding:105px 0 80px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:rgba(100,168,255,.13);filter:blur(100px);right:-160px;top:-180px}
+.eyebrow{display:inline-block;color:#a9cfff;background:rgba(100,168,255,.09);border:1px solid rgba(100,168,255,.25);padding:7px 12px;border-radius:99px;font-size:.82rem;font-weight:750;margin-bottom:22px}
+h1{font-size:clamp(2.7rem,7vw,5.5rem);line-height:.98;letter-spacing:-.065em;max-width:850px}
+.gradient{background:linear-gradient(110deg,#fff 20%,#8fc4ff 55%,#a79cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:1.14rem;color:var(--muted);max-width:680px;margin:25px 0 30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:65px}
+.stat{background:rgba(255,255,255,.035);border:1px solid var(--line);padding:22px;border-radius:15px}
+.stat strong{display:block;font-size:1.5rem;margin-bottom:4px}
+.stat span{color:var(--muted);font-size:.9rem}
+section{padding:88px 0}
+.section-head{max-width:720px;margin-bottom:38px}
+.kicker{color:#8dbdff;text-transform:uppercase;letter-spacing:.13em;font-size:.75rem;font-weight:800;margin-bottom:10px}
+h2{font-size:clamp(2rem,4vw,3rem);line-height:1.05;letter-spacing:-.045em}
+.section-head p{color:var(--muted);margin-top:14px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:18px;padding:28px}
+.card h3{font-size:1.15rem;margin:12px 0 8px}
+.card p{color:var(--muted);font-size:.95rem}
+.icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:rgba(100,168,255,.12);color:#9bc9ff;font-weight:900}
+.problem{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.problem .card{border-left:3px solid rgba(100,168,255,.7)}
+.case{display:grid;grid-template-columns:1.1fr .9fr;gap:0;overflow:hidden;padding:0}
+.case-main{padding:32px}
+.case-side{background:rgba(100,168,255,.07);padding:32px;border-left:1px solid var(--line)}
+.case-label{font-size:.76rem;color:#8dbdff;text-transform:uppercase;font-weight:800;letter-spacing:.1em}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.tag{font-size:.76rem;color:#c8d8eb;border:1px solid var(--line);padding:6px 9px;border-radius:999px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.step{padding:22px;border-top:2px solid #477fbd;background:rgba(255,255,255,.03);border-radius:0 0 14px 14px}
+.step b{font-size:.78rem;color:#8dbdff}
+.step h3{margin:7px 0}
+.step p{font-size:.88rem;color:var(--muted)}
+.tools{display:flex;gap:10px;flex-wrap:wrap}
+.tool{padding:12px 15px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.035);font-weight:700}
+.cta{background:linear-gradient(135deg,rgba(100,168,255,.13),rgba(139,124,255,.11));border:1px solid rgba(139,124,255,.22);border-radius:24px;padding:55px}
+.cta p{color:var(--muted);max-width:650px;margin:14px 0 25px}
+footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.85rem}
+footer .container{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:760px){
+ .navlinks{display:none}.hero{padding:75px 0 55px}.stats,.grid,.problem,.case,.steps{grid-template-columns:1fr}
+ .case-side{border-left:0;border-top:1px solid var(--line)}section{padding:65px 0}.cta{padding:32px}
+ footer .container{flex-direction:column}
+}
+
+/* Motion & portfolio gallery */
+body{overflow-x:hidden}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease}
+.reveal.visible{opacity:1;transform:none}
+.float{animation:float 5s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.hero .container{position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}
+.visual-card{position:relative;min-height:390px}
+.glow-card{position:absolute;inset:20px 0 0 20px;border:1px solid rgba(255,255,255,.12);border-radius:24px;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.025));box-shadow:0 25px 70px rgba(0,0,0,.28);padding:24px}
+.mini-dashboard{height:100%;border:1px solid var(--line);border-radius:18px;background:#091827;padding:20px}
+.dash-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.dash-title{font-weight:800}
+.pill{font-size:.7rem;padding:5px 8px;border-radius:99px;background:rgba(100,168,255,.12);color:#9bc9ff}
+.bars{display:flex;align-items:flex-end;height:145px;gap:10px;border-bottom:1px solid var(--line);padding:0 8px}
+.bar{flex:1;border-radius:7px 7px 0 0;background:linear-gradient(to top,#477fbd,#9b86ff);animation:grow 1.4s ease both;transform-origin:bottom}
+.bar:nth-child(1){height:35%}.bar:nth-child(2){height:50%}.bar:nth-child(3){height:42%}.bar:nth-child(4){height:68%}.bar:nth-child(5){height:56%}.bar:nth-child(6){height:82%}.bar:nth-child(7){height:72%}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.metric-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.metric{background:rgba(255,255,255,.035);padding:11px;border-radius:10px}.metric b{display:block;font-size:1rem}.metric span{font-size:.68rem;color:var(--muted)}
+.video-wrap{position:relative;aspect-ratio:16/9;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,#0b1b30,#111e38);display:grid;place-items:center}
+.video-wrap video{width:100%;height:100%;object-fit:cover}
+.video-placeholder{text-align:center;padding:30px}.play{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;margin:0 auto 18px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#06101d;font-size:1.5rem;box-shadow:0 12px 35px rgba(100,168,255,.25)}
+.video-placeholder p{color:var(--muted);max-width:430px;margin:auto;font-size:.9rem}
+.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.gallery-item{min-height:210px;border-radius:17px;overflow:hidden;position:relative;border:1px solid var(--line);background:#0b1a2c}
+.gallery-item:nth-child(1){grid-column:span 7}.gallery-item:nth-child(2){grid-column:span 5}.gallery-item:nth-child(3){grid-column:span 5}.gallery-item:nth-child(4){grid-column:span 7}
+.gallery-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.gallery-item:hover img{transform:scale(1.05)}
+.gallery-caption{position:absolute;left:0;right:0;bottom:0;padding:32px 18px 16px;background:linear-gradient(transparent,rgba(0,0,0,.8));font-weight:750}
+.gallery-placeholder{height:100%;min-height:210px;display:grid;place-items:center;text-align:center;padding:25px;color:var(--muted)}
+.gallery-placeholder strong{display:block;color:#dbe9fb;margin-bottom:6px}
+@media(max-width:760px){
+ .hero-grid{grid-template-columns:1fr}.visual-card{min-height:330px}
+ .gallery-item,.gallery-item:nth-child(n){grid-column:span 12}
+}
+
+
+/* Professional responsive layer */
+:root{--font-body:"DM Sans",Inter,system-ui,sans-serif;--font-display:"Manrope",Inter,system-ui,sans-serif}
+body{font-family:var(--font-body);background:radial-gradient(circle at 10% 0%,rgba(82,145,255,.08),transparent 28rem),radial-gradient(circle at 90% 20%,rgba(139,124,255,.08),transparent 30rem),var(--bg)}
+h1,h2,h3,.logo,.dash-title{font-family:var(--font-display)}
+section{position:relative} section:before{content:"";position:absolute;left:50%;top:0;width:min(80%,900px);height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent);transform:translateX(-50%)}
+.nav{height:76px}.logo{display:flex;align-items:center;gap:9px}.logo:before{content:"";width:9px;height:9px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 0 18px rgba(103,176,255,.8)}
+.navlinks a{position:relative}.navlinks a:after{content:"";position:absolute;left:0;bottom:-7px;width:0;height:2px;border-radius:5px;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:.25s}.navlinks a:hover:after{width:100%}
+.hero{min-height:calc(100vh - 76px);display:flex;align-items:center;padding:90px 0}.hero p{line-height:1.8}.btn{min-height:46px}.btn-primary{box-shadow:0 10px 28px rgba(100,168,255,.16)}.btn-primary:hover{box-shadow:0 15px 35px rgba(100,168,255,.24)}
+.card,.stat,.tool,.video-wrap,.gallery-item{transition:transform .3s ease,border-color .3s ease,background .3s ease,box-shadow .3s ease}.card:hover{transform:translateY(-6px);border-color:rgba(103,176,255,.25);background:rgba(255,255,255,.075);box-shadow:0 18px 45px rgba(0,0,0,.18)}.stat:hover,.tool:hover{transform:translateY(-3px);border-color:rgba(103,176,255,.24)}.gallery-item:hover{border-color:rgba(103,176,255,.3);transform:translateY(-4px)}
+.cta{position:relative;overflow:hidden;box-shadow:0 25px 70px rgba(0,0,0,.18)}.cta:after{content:"";position:absolute;width:300px;height:300px;right:-100px;bottom:-180px;border-radius:50%;background:rgba(139,124,255,.12);filter:blur(25px)}.cta>*{position:relative;z-index:1}
+.mobile-menu{display:none}.menu-btn{display:none;background:none;color:var(--text);border:1px solid var(--line);border-radius:9px;width:42px;height:42px;font-size:1.2rem}
+@media(max-width:900px){.hero{padding:70px 0}.hero-grid{gap:35px}.navlinks{gap:15px}.stats{grid-template-columns:1fr}}
+@media(max-width:760px){.nav{height:68px}.navlinks{display:none}.menu-btn{display:grid;place-items:center}.nav .btn-primary{display:none}.mobile-menu{position:absolute;left:4%;right:4%;top:74px;padding:12px;border:1px solid var(--line);border-radius:15px;background:rgba(9,22,38,.97);box-shadow:0 25px 60px rgba(0,0,0,.35)}.mobile-menu.open{display:grid}.mobile-menu a{padding:12px 14px;border-radius:9px;color:var(--muted)}.mobile-menu a:hover{background:rgba(255,255,255,.05);color:var(--text)}.hero{min-height:auto;padding:65px 0 60px}.hero h1{font-size:clamp(2.65rem,13vw,4.2rem)}.hero p{font-size:1rem}.visual-card{min-height:300px}.glow-card{inset:10px 0 0 10px;padding:16px}.bars{height:120px}section{padding:70px 0}.section-head{margin-bottom:30px}.card{padding:23px}.cta{padding:30px 23px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1!important;transform:none!important}}
+
+
+
+/* Personal profile + editable portfolio styling */
+.profile-card{display:grid;grid-template-columns:180px 1fr;gap:28px;align-items:center;margin-top:28px;padding:24px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.02))}
+.profile-photo-wrap{width:180px;height:180px;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.12);background:linear-gradient(145deg,rgba(100,168,255,.12),rgba(139,124,255,.10));display:grid;place-items:center}
+.profile-photo-wrap img{width:100%;height:100%;object-fit:cover;display:block}.profile-photo-placeholder{text-align:center;padding:16px;color:var(--muted);font-size:.8rem}.profile-photo-placeholder strong{display:block;color:#dbe9fb;font-size:1rem;margin-bottom:6px}
+.social-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.social-link{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;color:#dceaff;background:rgba(255,255,255,.03);font-size:.87rem;font-weight:700;transition:.2s}.social-link:hover{border-color:rgba(103,176,255,.32);transform:translateY(-2px)}
+.portfolio-card{position:relative;overflow:hidden}.portfolio-top{height:210px;border-radius:14px;overflow:hidden;margin-bottom:18px;border:1px solid var(--line);background:#0b1a2c}.portfolio-top img{width:100%;height:100%;display:block;object-fit:cover}.portfolio-placeholder{height:100%;display:grid;place-items:center;text-align:center;padding:22px;background:radial-gradient(circle at 20% 20%,rgba(100,168,255,.13),transparent 45%),radial-gradient(circle at 80% 80%,rgba(139,124,255,.12),transparent 45%)}.portfolio-placeholder strong{display:block;color:#dbe9fb;font-size:1rem;margin-bottom:6px}.portfolio-placeholder span{display:block;color:var(--muted);font-size:.78rem}
+.portfolio-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.mini-btn{display:inline-flex;align-items:center;justify-content:center;padding:9px 12px;border-radius:9px;border:1px solid var(--line);font-size:.82rem;font-weight:750;color:#dceaff}.mini-btn:hover{border-color:rgba(103,176,255,.3);background:rgba(255,255,255,.04)}
+.edit-note{margin-top:22px;padding:14px 16px;border-radius:12px;background:rgba(100,168,255,.06);border:1px dashed rgba(100,168,255,.22);color:#b7c8dd;font-size:.83rem}.edit-note b{color:#e2eeff}
+@media(max-width:760px){.profile-card{grid-template-columns:1fr}.profile-photo-wrap{width:150px;height:150px}.portfolio-top{height:190px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container nav">
+    <a class="logo" href="#">EMMANUEL<span>.</span></a>
+    <div class="navlinks">
+      <a href="#services">Services</a><a href="#work">Work</a><a href="#gallery">Gallery</a><a href="#about">About</a>
+    </div>
+    <a class="btn btn-primary" href="#contact">Let's Talk</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <div class="mobile-menu" id="mobileMenu"><a href="#services">Services</a><a href="#work">Work</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Let's Talk</a></div>
+  </div>
+</nav>
+
+<main>
+<section class="hero">
+  <div class="container">
+  <div class="hero-grid">
+   <div>
+    <div class="eyebrow">LEAD MANAGEMENT • CRM • REVENUE OPERATIONS</div>
+    <h1>Turn missed leads into a <span class="gradient">better revenue process.</span></h1>
+    <p>I help growing businesses capture, organize, follow up with and convert more leads through CRM automation, conversion-focused landing pages and KPI dashboards.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#contact">Start a Project</a>
+      <a class="btn" href="#work">View My Work</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>Lead Flow</strong><span>Capture → qualify → connect</span></div>
+      <div class="stat"><strong>Automation</strong><span>Follow-up without the gaps</span></div>
+      <div class="stat"><strong>Visibility</strong><span>KPIs your team can act on</span></div>
+    </div>
+   </div>
+   <div class="visual-card float" aria-label="Decorative KPI dashboard preview">
+    <div class="glow-card">
+     <div class="mini-dashboard">
+      <div class="dash-top"><span class="dash-title">Revenue Overview</span><span class="pill">LIVE KPI</span></div>
+      <div class="bars"><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i><i class="bar"></i></div>
+      <div class="metric-row">
+       <div class="metric"><b>+38%</b><span>Conversion</span></div>
+       <div class="metric"><b>2.4h</b><span>Response time</span></div>
+       <div class="metric"><b>94%</b><span>Lead coverage</span></div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+<section id="services" class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">What I do</div>
+    <h2>Build the system behind your sales.</h2>
+    <p>Not just another collection of tools. I look at where leads get stuck, then build a practical process your team can actually use.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="icon">01</div><h3>CRM & Sales Automation</h3><p>Pipeline setup, lead routing, follow-up workflows, reminders, reactivation and integrations that reduce manual work.</p></div>
+    <div class="card"><div class="icon">02</div><h3>Lead Management</h3><p>Map the journey from first contact to conversion, identify leakage and create a clearer system for handling every opportunity.</p></div>
+    <div class="card"><div class="icon">03</div><h3>KPI Dashboards</h3><p>Turn scattered sales and marketing data into simple dashboards for conversion, pipeline, revenue and performance visibility.</p></div>
+    <div class="card"><div class="icon">04</div><h3>Landing Pages & Websites</h3><p>Conversion-focused landing pages and business websites designed to capture attention, qualify prospects and feed the sales process.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">The problems</div>
+    <h2>Where revenue usually leaks.</h2>
+  </div>
+  <div class="problem">
+    <div class="card"><h3>Leads arrive but nobody follows up fast enough.</h3><p>Build speed-to-lead workflows, ownership rules and reminders so opportunities don't disappear.</p></div>
+    <div class="card"><h3>Your CRM is full of stale or messy records.</h3><p>Clean the pipeline, standardize stages and make the data useful again.</p></div>
+    <div class="card"><h3>You can't see what's actually converting.</h3><p>Connect your key numbers into dashboards that show sources, pipeline movement and conversion.</p></div>
+    <div class="card"><h3>Your website generates traffic but not enough leads.</h3><p>Improve the landing-page journey, calls to action and lead capture process.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="work" class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">Selected work</div>
+    <h2>Practical systems, built around the business.</h2>
+    <p>Take a look at some of my past projects. Each one reflects my approach to quality, creativity, and thoughtful execution. I hope you enjoy exploring my work.</p>
+  </div>
+  <div class="grid" id="portfolioCards">
+    <!-- Portfolio cards are generated from SITE_CONFIG below. -->
+  </div>
+</div>
+</section>
+
+<section id="process" class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">My process</div>
+    <h2>Diagnose first. Automate second.</h2>
+    <p>The goal is a system that improves the customer journey without creating unnecessary complexity for the team.</p>
+  </div>
+  <div class="steps">
+    <div class="step"><b>01</b><h3>Diagnose</h3><p>Understand the current lead journey and identify the biggest leaks.</p></div>
+    <div class="step"><b>02</b><h3>Design</h3><p>Map stages, ownership, data and customer touchpoints.</p></div>
+    <div class="step"><b>03</b><h3>Automate</h3><p>Build workflows that handle repetitive follow-up and routing.</p></div>
+    <div class="step"><b>04</b><h3>Measure</h3><p>Track the KPIs that show whether the system is working.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">Tools</div>
+    <h2>Flexible with the stack.</h2>
+    <p>The business problem comes first. The tool follows the process.</p>
+  </div>
+  <div class="tools">
+    <span class="tool">GoHighLevel</span><span class="tool">HubSpot</span><span class="tool">Klaviyo</span><span class="tool">WordPress</span><span class="tool">Landing Pages</span><span class="tool">CRM Automation</span><span class="tool">KPI Dashboards</span>
+  </div>
+</div>
+</section>
+
+
+<section id="video" class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">Watch</div>
+    <h2>See how I think about revenue systems.</h2>
+    <p>It's just 75 seconds video, won't take much of your time.</p>
+  </div>
+  <div class="video-wrap">
+    <!-- Replace the source below with your video file, e.g. assets/my-intro.mp4 -->
+    <video controls poster="" preload="metadata">
+      <source src="assets/client-video.mp4" type="video/mp4">
+      Your browser does not support video playback.
+    </video>
+    <div class="video-placeholder" id="videoPlaceholder">
+      <div class="play">▶</div>
+      <strong>Your short portfolio video goes here</strong>
+      <p>Add your MP4 file at <b>assets/client-video.mp4</b> and it will appear in this player.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="gallery" class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">Portfolio gallery</div>
+    <h2>WELCOME TO MY GALLERY</h2>
+    <p>Here are some of my past projects. Some were built as practical projects to sharpen my skills and explore new ideas, while others were developed for real clients and business needs.</p>
+  </div>
+  <div class="gallery" id="galleryGrid">
+    <!-- Gallery items are generated from SITE_CONFIG below. -->
+  </div>
+</div>
+</section>
+
+<section id="about" class="reveal">
+<div class="container">
+  <div class="section-head">
+    <div class="kicker">About</div>
+    <h2>I build systems people can actually use.</h2>
+  </div>
+  <div class="profile-card">
+    <div class="profile-photo-wrap">
+      <!-- REPLACE: keep your photo at assets/profile-photo.jpg -->
+      <img id="profilePhoto" src="assets/profile-photo.jpg" alt="Emmanuel — Lead Management & Revenue Operations Specialist">
+      <div class="profile-photo-placeholder" id="profilePhotoPlaceholder"><strong>Your Photo</strong>Add `assets/profile-photo.jpg`</div>
+    </div>
+    <div>
+      <p style="color:var(--muted)">I’m Emmanuel, a lead management and revenue operations specialist focused on improving the path from first enquiry to closed customer. My approach starts with the business problem: where leads are being lost, where follow-up breaks down, and what the team needs to see to make better decisions.</p>
+      <div class="social-links">
+        <!-- Replace these in SITE_CONFIG below -->
+        <a id="linkedinLink" class="social-link" href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a id="upworkLink" class="social-link" href="#" target="_blank" rel="noopener">Upwork ↗</a>
+        <a id="whatsappLink" class="social-link" href="#" target="_blank" rel="noopener">WhatsApp ↗</a>
+        <a id="emailLink" class="social-link" href="mailto:YOUR-EMAIL@example.com">Email ✉</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+<div class="container">
+  <div class="cta">
+    <div class="kicker">Let's work together</div>
+    <h2>Have leads slipping through the cracks?</h2>
+    <p>Tell me where your current process breaks down. We can turn the problem into a clearer workflow, better follow-up and measurable visibility.</p>
+    <div class="actions">
+      <!-- Update these in SITE_CONFIG below -->
+      <a id="contactEmail" class="btn btn-primary" href="mailto:YOUR-EMAIL@example.com">Contact Me</a>
+      <a id="contactLinkedIn" class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a id="contactUpwork" class="btn" href="#" target="_blank" rel="noopener">Upwork</a>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer><div class="container"><span>© 2026 Emmanuel. All rights reserved.</span><span>Lead Management • CRM Automation • KPI Dashboards</span></div></footer>
+
+<script>
+/* =========================================================
+   EASY EDIT AREA — replace these values with your own details
+   ========================================================= */
+const SITE_CONFIG = {
+  name: "Emmanuel",
+  email: "idowuemmanueloke35@gmail.com",
+  linkedin: "https://www.linkedin.com/in/dennyinfotech",
+  upwork: "https://www.upwork.com/freelancers/~01d0b75f9ab1769a4d?mp_source=share",
+  whatsapp: "https://wa.me/+2347073639038",
+  profilePhoto: "assets/profile-photo.jpg",
+  portfolio: [
+    {title:"Insurance Lead Management System",description:"CRM, email and SMS workflow for organizing incoming leads, improving follow-up and creating reporting visibility.",image:"assets/portfolio-01.jpg",tags:["CRM","Email","SMS","Reporting"],link:"YOUR-PROJECT-LINK-01"},
+    {title:"Lead Capture & Qualification Landing Page",description:"Lead-capture experience designed to collect prospect information and qualify enquiries before the sales conversation.",image:"assets/portfolio-02.jpg",tags:["Landing Page","Lead Capture","Qualification"],link:"YOUR-PROJECT-LINK-02"}
+  ],
+  gallery: [
+    {title:"CRM & Lead Management",image:"assets/gallery-01.jpg"},
+    {title:"KPI Dashboard",image:"assets/gallery-02.jpg"},
+    {title:"Conversion-Focused Landing Page",image:"assets/gallery-03.jpg"},
+    {title:"Sales Automation Workflow",image:"assets/gallery-04.jpg"}
+  ]
+};
+
+const isPlaceholder = (value) => !value || /YOUR-|example\.com/i.test(value);
+const setLink = (id, href) => { const el=document.getElementById(id); if(el) el.href=href; };
+setLink('linkedinLink', SITE_CONFIG.linkedin); setLink('upworkLink', SITE_CONFIG.upwork); setLink('whatsappLink', SITE_CONFIG.whatsapp);
+setLink('emailLink', `mailto:${SITE_CONFIG.email}`); setLink('contactEmail', `mailto:${SITE_CONFIG.email}`); setLink('contactLinkedIn', SITE_CONFIG.linkedin); setLink('contactUpwork', SITE_CONFIG.upwork);
+
+const profilePhoto=document.getElementById('profilePhoto'), profilePlaceholder=document.getElementById('profilePhotoPlaceholder');
+if(profilePhoto) profilePhoto.src = SITE_CONFIG.profilePhoto;
+if(profilePhoto&&profilePlaceholder){
+  profilePlaceholder.style.display='none';
+  profilePhoto.addEventListener('error',()=>{profilePhoto.style.display='none';profilePlaceholder.style.display='grid'});
+  profilePhoto.addEventListener('load',()=>{profilePhoto.style.display='block';profilePlaceholder.style.display='none'});
+}
+
+const portfolioCards=document.getElementById('portfolioCards');
+if(portfolioCards){SITE_CONFIG.portfolio.forEach((item,index)=>{
+  const article=document.createElement('article'); article.className='card portfolio-card';
+  article.innerHTML=`<div class="portfolio-top"><img src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="portfolio-placeholder" style="display:none"><div><strong>Add your project image</strong><span>${item.image}</span></div></div></div><div class="case-label">Case Study ${String(index+1).padStart(2,'0')}</div><h3>${item.title}</h3><p>${item.description}</p><div class="tags">${item.tags.map(tag=>`<span class="tag">${tag}</span>`).join('')}</div><div class="portfolio-actions"><a class="mini-btn" href="${isPlaceholder(item.link)?'#':item.link}" target="_blank" rel="noopener">View Project ↗</a></div>`;
+  portfolioCards.appendChild(article);
+});}
+
+const galleryGrid=document.getElementById('galleryGrid');
+if(galleryGrid){SITE_CONFIG.gallery.forEach(item=>{const div=document.createElement('div');div.className='gallery-item';div.innerHTML=`<img src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="gallery-placeholder" style="display:none"><div><strong>Add your image</strong><span>${item.image}</span></div></div><div class="gallery-caption">${item.title}</div>`;galleryGrid.appendChild(div);});}
+
+const revealObserver=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target);}})},{threshold:.10,rootMargin:'0px 0px -35px 0px'});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=Math.min(i*45,180)+'ms';revealObserver.observe(el)});
+
+const vid=document.querySelector('.video-wrap video'), ph=document.getElementById('videoPlaceholder');
+if(vid&&ph){vid.addEventListener('loadeddata',()=>ph.style.display='none');vid.addEventListener('error',()=>ph.style.display='grid');}
+
+const menuBtn=document.getElementById('menuBtn'),mobileMenu=document.getElementById('mobileMenu');
+if(menuBtn&&mobileMenu){menuBtn.addEventListener('click',()=>{const open=mobileMenu.classList.toggle('open');menuBtn.setAttribute('aria-expanded',open);menuBtn.textContent=open?'×':'☰'});mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileMenu.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰'}));}
+</script>\n</html>
